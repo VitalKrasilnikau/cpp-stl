@@ -15,4 +15,9 @@ To install Boost run `sudo dnf install boost-devel`.
 
 ## Test
 
-`test.sh` is used to build with GCC and test the application with **CxxTest**.
+`test.sh` is used to build with GCC and test the application with **CxxTest**. Download CxxTest and unpack it to `cxxtest-4.3` folder.
+
+```
+[vital@dhcppc0 cpp]$ /bin/bash test.sh
+Running cxxtest tests (3 tests)...OK!
+```
